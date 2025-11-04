@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selectors</title>
+    <style>
+        div {
+            background-color: rgb(80, 206, 231);
+        }
+
+        /* Class selectors */
+        .first {
+            color: blue;
+            background-color: yellow;
+        }
+
+        /* ID Selectors */
+        #second {
+            color: chartreuse;
+            background-color: darkred;
+        }
+
+        /* Child Selectors */
+        div>p {
+            color: rgb(77, 25, 6);
+            background-color: rgb(21, 85, 21);
+        }
+
+        /* Desecendant Selector */
+        div p {
+            color: rgb(225, 140, 109);
+            background-color: rgb(11, 240, 11);
+        }
+
+        /* Universal Selector */
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Pseudo Selectors */
+        a:visited{
+            color: rgb(255, 0, 0);
+        }
+
+        a:link{
+            color: green;
+        }
+
+        a:active{
+            background-color: pink;
+        }
+        a:hover{
+            background-color: blueviolet;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="first">
+        Hey i am 1st div
+        <p>I am paragraph</p>
+    </div>
+
+    <div id="second">
+        Hey i am 2nd div
+        <article>
+
+            <P>I am also paragraph</P>
+        </article>
+    </div>
+    
+        <a href="https/:www.google.com">Go to google</a>
+</body>
+
+</html>

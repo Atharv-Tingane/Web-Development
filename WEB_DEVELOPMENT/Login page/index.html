@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <style>
+        body {
+            background-color: rgb(212, 232, 233);
+        }
+
+        input {
+            margin-bottom: 15px;
+        }
+
+        input[type="submit"]:hover {
+            background-color: blue;
+            color: yellow;
+            font-weight: bold;
+
+        }
+
+        h2 {
+
+            font-family: "Exo 2", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 700;
+            font-style: normal;
+            
+
+        }
+    </style>
+</head>
+
+<body>
+    <h2>Login</h2>
+    <form action="welcome.html" method="get">
+        <label for="Username/Email">Username / Email :</label>
+        <input type="text" name="Username/Email" placeholder="Enter username/Email" autofocus>
+        <br>
+        <label for="password">Password : </label>
+        <input type="password" name="password" id="password" placeholder="Enter password" autofocus>
+        <br>
+        <input type="submit" value="submit">
+    </form>
+    <br>
+    <p>forgot <a href="Username/Password?">Username/Password?</a>
+        <br>
+        Don't have an account..? <a href="sign up">sign up</a>
+    </p>
+</body>
+
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms in HTML</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Form to apply for SWAG & GDG Club</h1>
+    <form action="post">
+        <div>
+
+            <label for="Username">Enter your Username</label>
+            <input type="text" id="Username" name="Username" placeholder="Enter your Username" autofocus>
+        </div>
+        <div>
+
+            <input type="radio" name="gender" id="female" value="female">
+            <label for="female">female</label>
+            <input type="radio" name="gender" id="male" value="male">
+            <label for="male">male</label>
+        </div>
+        <div>
+            <input type="checkbox" id="confirm" name="confirm" value="yes">
+            <label for="confirm">are you confirm..?</label>
+        </div>
+        <div>
+            <label for="comment">Why are you joining this club..?</label>
+            <br>
+            <textarea name="comment" rows="4" cols="70" id="comment"></textarea>
+        </div>
+        <div>
+            <select name="field" id="field">
+                <label for="select">choose your field</label>
+                <option value="web">web development</option>
+                <option value="App">App development</option>
+                <option value="Graphics">Graphics & games</option>
+            </select>
+        </div>
+        <div>
+            <input type="checkbox" name="Dsa" id="Dsa" value="yes">
+            <label for="Dsa">Do you want Dsa...?</label>
+
+        </div>
+
+    </form>
+</body>
+
+</html>
